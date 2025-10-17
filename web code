@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Links</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #0d0d0d;
+      color: #00ff88;
+      font-family: 'Orbitron', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #00ff88;
+      margin-top: 2rem;
+      object-fit: cover;
+    }
+
+    h1 {
+      margin: 1rem 0;
+      font-size: 1.8rem;
+      text-align: center;
+      color: #00ff88;
+    }
+
+    .links {
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .link {
+      display: block;
+      text-align: center;
+      padding: 1rem;
+      border: 2px solid #00ff88;
+      border-radius: 8px;
+      color: #00ff88;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      background: transparent;
+      position: relative;
+    }
+
+    .link:hover {
+      background-color: #00ff88;
+      color: #0d0d0d;
+      box-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 1rem;
+      font-size: 0.8rem;
+      color: #444;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://via.placeholder.com/120" alt="Profile Picture" class="profile-img" />
+  <h1>Your Name</h1>
+
+  <div class="links">
+    <a href="https://github.com/yourusername" class="link" target="_blank">GitHub</a>
+    <a href="https://twitter.com/yourusername" class="link" target="_blank">Twitter</a>
+    <a href="https://yourwebsite.com" class="link" target="_blank">Portfolio</a>
+    <a href="mailto:youremail@example.com" class="link">Email Me</a>
+  </div>
+
+  <footer>
+    ⚡ Built with HTML & CSS · Neon Vibes
+  </footer>
+</body>
+</html>
